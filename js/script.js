@@ -16,7 +16,7 @@ methods: {
         }
 
         console.log(this.arrayEmail)
-
+        
     }
 }
 }).mount('#app')
