@@ -21,6 +21,11 @@
                 <div class="col-12 p-4">
                     <button class="btn btn-primary" @click="generateArray">Genera email</button>
                 </div>
+                <div class="col-12 p-2">
+                    <ul>
+                        <li v-for="(index) in arrayEmail">{{index}}</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
